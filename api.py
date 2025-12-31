@@ -146,7 +146,7 @@ def health():
         else:
             portal_status = f"indisponível (Status {response.status_code})"
     except Exception:
-        portal_status = "Mortadela - offline/erro de rede"
+        portal_status = "Offline/erro de rede"
 
     # Resposta Consolidada
     # Retorna o status de ambos os componentes
